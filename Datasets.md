@@ -1,3 +1,5 @@
+# Datasets
+
 ## Human-Object Interaction
 
 #### HICO-DET
@@ -6,7 +8,7 @@
 
 [Official Caffe implementation](https://github.com/ywchao/ho-rcnn)
 
-[Dataset available here](http://websites.umich.edu/~ywchao/hico/)
+[Downloadable from here](http://websites.umich.edu/~ywchao/hico/)
 
 Introduce HICO-DET benchmark:  150k images with bounding boxes for human, object, and interaction type (600 interaction categories).
 Each interaction type includes action and objects (eg., "riding a bike", "eating an apple"...)
@@ -39,3 +41,11 @@ Used for multiple tsk, including reoccurring challenges:
 2. Keypoint detection
 3. Image segmentation (objects and "stuff" like sky, road...)
 4. Captioning
+
+## Person Re-Identification
+
+#### Market 1501
+
+2015 - Zheng et al - [Scalable Person Re-identification: A Benchmark](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zheng_Scalable_Person_Re-Identification_ICCV_2015_paper.pdf)
+
+[Downlodable from here](https://zheng-lab.cecs.anu.edu.au/Project/project_reid.html)
