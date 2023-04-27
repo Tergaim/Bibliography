@@ -1,6 +1,7 @@
 ###### 2018 - Chao et al. - [Learning to Detect Human-Object Interactions](https://arxiv.org/abs/1702.05448)
 
 [Official Caffe implementation](https://github.com/ywchao/ho-rcnn)
+
 [Dataset available here](http://websites.umich.edu/~ywchao/hico/)
 
 Introduce HICO-DET benchmark:  150k images with bounding box for human, object, and interaction type (600 interaction categories).
