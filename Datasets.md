@@ -49,3 +49,13 @@ Used for multiple tsk, including reoccurring challenges:
 2015 - Zheng et al - [Scalable Person Re-identification: A Benchmark](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zheng_Scalable_Person_Re-Identification_ICCV_2015_paper.pdf)
 
 [Downlodable from here](https://zheng-lab.cecs.anu.edu.au/Project/project_reid.html)
+
+## Distribution Shifts
+
+#### WILDS
+
+2020 - Koh et al. - [WILDS: A Benchmark of in-the-Wild Distribution Shifts](https://arxiv.org/abs/2012.07421)
+
+[Downloadable from here](https://wilds.stanford.edu/)
+
+Collection of 10 datasets selected to cover scenarios with various ranges of distribution shifts, which standard methods struggle to learn.
