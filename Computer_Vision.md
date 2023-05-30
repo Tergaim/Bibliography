@@ -9,6 +9,13 @@ Introduce the ResNet architecture. Instead of simply stacking layers, they intro
 Adding the input to the block result effectively create shortcut connections that greatly reduce or eliminate training problems (vanishing gradient, accuracy degradation) that can occur in stacked layers.
 This allows for easy accuracy gains by simply stacking more residual blocks, often with a lower computational complexity than contemporary SOTA while significantly outperforming it.
 
+#### 2019 - Howard et al. - [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244)
+
+[Implemented in Torchvision](https://pytorch.org/vision/master/models/mobilenetv3.html)
+
+
+Propose a new architecture for MobileNet networks than improves accuracy, latency, or both on a variety of tasks. In particular, automated searches with platform-aware NAS and NetAdapt are used to optimize the network, following works using Reinforcement Learning, Quantization and Network Distillation. The network is based on building blocks introduced in MobileNetV1-2 and MnasNet, with a few other techniques. 
+
 #### 2020 - Cordonnier et al. - [On the relationship between Self-Attention and Convolutonal Layers](https://arxiv.org/abs/1911.03584)
 
 [Official Pytorch implementation](https://github.com/epfml/attention-cnn)
