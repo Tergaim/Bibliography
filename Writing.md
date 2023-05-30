@@ -9,3 +9,5 @@ How to write a good research paper, by Bill Freeman: [video](https://www.youtube
 Other stuff from the [Good citizens of CVPR](https://faculty.cc.gatech.edu/~parikh/citizenofcvpr/)
 
 This [article](http://www.ai.mit.edu/courses/6.899/papers/mermin.pdf) from 1989 by David Mermin still is an authority for writing equations.
+
+"Look at the list of citations in your paper and then figure out the median age of the paper cited. If that median age is two years, you haven't really read the literature." J. Malik
