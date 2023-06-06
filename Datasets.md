@@ -42,6 +42,18 @@ Used for multiple tsk, including reoccurring challenges:
 3. Image segmentation (objects and "stuff" like sky, road...)
 4. Captioning
 
+#### FashionStyle14
+
+2017 - Takagi et al - What Makes a Style: Experimental Analysis of Fashion Prediction [(IEEE)](https://ieeexplore.ieee.org/document/8265473) 
+
+[Download here](https://esslab.jp/~ess/en/data/fashionstyle14/)
+
+New dataset for fashion style prediction, which consists of 14 different fashion styles each with roughly 1,000 images of worn outfits. 
+The dataset, with a total of 13,126 images, captures the diversity and complexity of modern fashion styles. 
+The paper benchmarks a wide variety of modern classification networks, and also perform an in-depth user study with both fashion-savvy and fashion-naïve users. 
+Although classification networks are able to outperform naive users, they are still far from the performance of savvy users.
+The download link also leads to bigger datasets on the same topic. 
+
 ## Person Re-Identification
 
 #### Market 1501
