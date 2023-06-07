@@ -1,5 +1,18 @@
 # Datasets
 
+## Action Recognition
+
+#### NTU RGB+D
+
+2016 - Shahroudi et al. - [NTU RGB+D: A Large Scale Dataset for 3D Human Activity Analysis](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shahroudy_NTU_RGBD_A_CVPR_2016_paper.pdf)
+
+2020 - Liu et al. - [NTU RGB+D 120: A Large-Scale Benchmark for 3D Human Activity Understanding](https://arxiv.org/abs/1905.04757)
+
+[Instructions for download](https://github.com/shahroudy/NTURGB-D) 
+
+Set of actions each containing RGB videos, sequences of depth maps, 3D skeletal data and infrared videos. The original version contains 60 actions, extended to 120 in 2020.
+The 2020 version is also made for one-shot action recognition.
+
 ## Human-Object Interaction
 
 #### HICO-DET
