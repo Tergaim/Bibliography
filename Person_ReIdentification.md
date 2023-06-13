@@ -10,6 +10,13 @@ Idea: if a neighbour A of the query Q is a true positive, then Q should appear w
 The authors use this as the basis of k-reciprocal encoding. The resulting distance between the query and the results is a weighted average of the regular distance between vectors, and the Jaccard distance between k-NN sets.
 This requires no learning nor labels and can be added to any other Re-ID method.
 
+#### 2021 - Wieczorek et al. - [On the Unreasonable Effectiveness of Centroids in Image Retrieval](https://arxiv.org/abs/2104.13643)
+
+[Official Pytorch-lightning implementation](https://github.com/mikwieczorek/centroids-reid/tree/main)
+
+Work on representing each class by an aggregated embedding. This simplifies time and memory complexity, and reduces the variance due to changes in view angles, lighting, etc. While the idea itself is not new, it is usually only applied during training; the authors of this work show that using mean centroid representations during retrieval is beneficial to the system's performance.
+
+
 #### 2022 - Takeuchi et al - [Unsupervised Domain-Adaptive Person Re-Identification with Multi-Camera Constraints](https://arxiv.org/abs/2210.13999)
 
 Work on reducing the loss in performance incurred when using a model in a different environment from training. 
