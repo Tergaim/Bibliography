@@ -1,6 +1,16 @@
 # Domain Adaptation
 
 
+#### 2018 - Saito et al. - [Maximum Classifier Discrepancy for Unsupervised Domain Adaptation](https://arxiv.org/abs/1712.02560)
+
+[Official Pytorch implementation](https://github.com/mil-tokyo/MCD_DA/tree/master/classification)
+
+This works tackle the UDA problem using an adversarial method. They use two classifiers and one generator; both source and domain data go through the generator.
+The training proceeds in three steps:
+a. Train the classifiers and generator on the source domain with the classification loss.
+b. Train the classifiers to minimize classification loss on source and maximise the discrepancy on target
+c. Train the generator to minimize target discrepancy. This step is repeated k times (hyperparameter) witthe same data sample.
+
 
 #### 2020 - Chen et al. - [HoMM: Higher-order Moment Matching for Unsupervised Domain Adaptation](https://arxiv.org/abs/1912.11976)
 
