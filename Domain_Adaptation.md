@@ -20,3 +20,18 @@ The authors aim at minimizing the discrepancy of feature distributions between t
 They show that first order HoMM is equivalent to MMD (Maximum Mean Discrepancy) and second order to CORAL (Correlation Alignment).
 They argue that using a higher moment order help better approximate non-Gaussian distribution, and outperforms previous discrepancy measures while integrating them in their framework.
 The method can be further improved by assigning pseudo-labels to the target domain.
+
+#### 2023 - Zhang et al. - [Free Lunch for Domain Adversarial Training: Environment Label Smoothing](https://arxiv.org/abs/2302.00194v1)
+
+[Official Pytorch implementation](https://github.com/yfzhang114/Environment-Label-Smoothing)
+
+DA using adversarial methods is difficult because of the balance between discriminator and generator training. 
+This work encourages the discriminator to output soft probabilities, which in turn improve training stability, local convergence, and robustness to noisy environment labels.
+
+
+#### 2023 - Zhu et al. - [Patch-Mix Transformer for Unsupervised Domain Adaptation: A Game Perspective](https://arxiv.org/abs/2303.13434)
+
+[Official Pytorch implementation](https://github.com/JinjingZhu/PMTrans)
+
+Introduce the PMTrans model for UDA. They proposed a ViT-based model that creates an intermediate domain between source and target by sampling patches from both datasets.
+The approach effectively solves cases where there is a large gap between the two domains.
