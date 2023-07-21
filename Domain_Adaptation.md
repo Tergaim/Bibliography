@@ -21,6 +21,22 @@ They show that first order HoMM is equivalent to MMD (Maximum Mean Discrepancy) 
 They argue that using a higher moment order help better approximate non-Gaussian distribution, and outperforms previous discrepancy measures while integrating them in their framework.
 The method can be further improved by assigning pseudo-labels to the target domain.
 
+#### 2021 - Xu et al. - [CDTrans: Cross-domain Transformer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2109.06165v4)
+
+[Official Pytorch implementation](https://github.com/CDTrans/CDTrans)
+
+One of the first attempts to solve UDA with vision transformers.
+Authors show that the cross attention of transformer models is less sensitive to pseudo-label noise than CNNs.
+They designed a model using three branches, for source data, target data and feature alignment. 
+
+Additionally, they propose a method to generate pseudo-labels
+First, generate pairs by associating each image in both datasets to their closest counterpart (in the feature space)
+Then, filter the pairs by assigning pseudo-labels to target data:
+- assign a first label with a source-trained classifier
+- compute the centers for each class and assign the final pseudo-label based on the closest class center
+- discard pairs if the source label and target pseudo-label are different.
+
+
 #### 2023 - Zhang et al. - [Free Lunch for Domain Adversarial Training: Environment Label Smoothing](https://arxiv.org/abs/2302.00194v1)
 
 [Official Pytorch implementation](https://github.com/yfzhang114/Environment-Label-Smoothing)
