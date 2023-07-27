@@ -21,6 +21,10 @@ They show that first order HoMM is equivalent to MMD (Maximum Mean Discrepancy) 
 They argue that using a higher moment order help better approximate non-Gaussian distribution, and outperforms previous discrepancy measures while integrating them in their framework.
 The method can be further improved by assigning pseudo-labels to the target domain.
 
+
+#### 2020 - Liang et al. - [Do We Really Need to Access the Source Data? Source Hypothesis Transfer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2002.08546)
+
+
 #### 2021 - Xu et al. - [CDTrans: Cross-domain Transformer for Unsupervised Domain Adaptation](https://arxiv.org/abs/2109.06165v4)
 
 [Official Pytorch implementation](https://github.com/CDTrans/CDTrans)
