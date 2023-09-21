@@ -1,5 +1,29 @@
 # Domain Adaptation
 
+## Supervised
+
+#### 2019 - Guo et al. - [Depthwise Convolution is All You Need for Learning Multiple Visual Domains](https://arxiv.org/abs/1902.00927)
+
+[Official Pytorch implementation](https://github.com/yunhuiguo/Depthwise_Convolution_for_Multiple_Domain_Learning)
+
+ In this paper, we propose a multi-domain learning architecture based on depthwise separable convolution. The proposed approach is based on the assumption that images from different domains share cross-channel correlations but have domain-specific spatial correlations. The proposed model is compact and has minimal overhead when being applied to new domains. Additionally, we introduce a gating mechanism to promote soft sharing between different domains. We evaluate our approach on Visual Decathlon Challenge, a benchmark for testing the ability of multi-domain models. The experiments show that our approach can achieve the highest score while only requiring 50% of the parameters compared with the state-of-the-art approaches.
+
+<details>
+<summary>Bibtex</summary>
+```
+@inproceedings{GuoDepthwise2019,
+  title={Depthwise convolution is all you need for learning multiple visual domains},
+  author={Guo, Yunhui and Li, Yandong and Wang, Liqiang and Rosing, Tajana},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={33},
+  pages={8368--8375},
+  year={2019}
+}
+```
+</details>
+
+## Unsupervised
+
 
 #### 2018 - Saito et al. - [Maximum Classifier Discrepancy for Unsupervised Domain Adaptation](https://arxiv.org/abs/1712.02560)
 
