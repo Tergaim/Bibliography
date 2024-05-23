@@ -10,6 +10,7 @@
 
 <details>
 <summary>Bibtex</summary>
+ 
 ```
 @inproceedings{GuoDepthwise2019,
   title={Depthwise convolution is all you need for learning multiple visual domains},
@@ -20,6 +21,7 @@
   year={2019}
 }
 ```
+
 </details>
 
 ## Unsupervised
@@ -67,6 +69,7 @@ Then, filter the pairs by assigning pseudo-labels to target data:
 
 <details>
 <summary>Bibtex</summary>
+ 
 ```
 @inproceedings{XuCDTrans2022,
   title     = {{CDT}rans: Cross-domain Transformer for Unsupervised Domain Adaptation},
@@ -76,6 +79,7 @@ Then, filter the pairs by assigning pseudo-labels to target data:
   url       = {https://openreview.net/forum?id=XGzk5OKWFFc}
 }
 ```
+
 </details>
 
 #### 2023 - Zhang et al. - [Free Lunch for Domain Adversarial Training: Environment Label Smoothing](https://arxiv.org/abs/2302.00194v1)
@@ -87,6 +91,7 @@ This work encourages the discriminator to output soft probabilities, which in tu
 
 <details>
 <summary>Bibtex</summary>
+ 
 ```
 @inproceedings{ZhangELS2023,
   title     = {Free Lunch for Domain Adversarial Training: Environment Label Smoothing},
@@ -96,6 +101,7 @@ This work encourages the discriminator to output soft probabilities, which in tu
   url       = {https://openreview.net/forum?id=GPTjnA57h_3}
 }
 ```
+
 </details>
 
 #### 2023 - Zhu et al. - [Patch-Mix Transformer for Unsupervised Domain Adaptation: A Game Perspective](https://arxiv.org/abs/2303.13434)
@@ -111,6 +117,7 @@ The approach effectively solves cases where there is a large gap between the two
 
 <details>
 <summary>Bibtex</summary>
+ 
 ```
 @inproceedings{YangTVT2023,
   author    = {J. Yang and J. Liu and N. Xu and J. Huang},
@@ -123,4 +130,5 @@ The approach effectively solves cases where there is a large gap between the two
   publisher = {IEEE Computer Society}
 }
 ```
+
 </details>
