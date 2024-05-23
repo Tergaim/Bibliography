@@ -6,6 +6,7 @@ In this paper, we propose a smooth transition and interplay between these two st
 
 <details>
 <summary>Bibtex</summary>
+  
 ```
 @inproceedings{ZhouRobust2021,
 title={Robust Curriculum Learning: from clean label detection to noisy label self-correction},
@@ -15,6 +16,7 @@ year={2021},
 url={https://openreview.net/forum?id=lmTWnm3coJJ}
 }
 ```
+  
 </details>
 
 #### 2023 - Xiao et al. - [ProMix: Combating Label Noise via Maximizing Clean Sample Utility](https://arxiv.org/abs/2207.10276v4)
@@ -25,6 +27,7 @@ Recent state-of-the-art approaches employ specific selection mechanisms to separ
 
 <details>
 <summary>Bibtex</summary>
+  
 ```
 @inproceedings{XiaoProMix2023,
   title     = {ProMix: Combating Label Noise via Maximizing Clean Sample Utility},
@@ -41,4 +44,5 @@ Recent state-of-the-art approaches employ specific selection mechanisms to separ
   url       = {https://doi.org/10.24963/ijcai.2023/494},
 }
 ```
+
 </details>
