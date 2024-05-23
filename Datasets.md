@@ -84,3 +84,21 @@ The download link also leads to bigger datasets on the same topic.
 [Downloadable from here](https://wilds.stanford.edu/)
 
 Collection of 10 datasets selected to cover scenarios with various ranges of distribution shifts, which standard methods struggle to learn.
+
+## Video Scene Graph Generation
+
+#### STAR
+
+2021 - Wu et al. - [STAR: A Benchmark for Situated Reasoning in Real-World Videos](https://openreview.net/pdf?id=EfgNF5-ZAjM)
+
+[Downloadable from here](https://bobbywu.com/STAR/#repo)
+
+The dataset consists of four question types for situated reasoning: Interaction, Sequence, Prediction, and Feasibility. Video situations are decomposed by bottom-up hyper-graphs with atomic entities and relations (e. g., actions, objects, and relationships).
+
+#### VidVRD
+
+2017 - Shang et al. - [Video Visual Relation Detection](https://www-users.cse.umn.edu/~guo00109/assets/publication/mm17-shangxd.pdf)
+
+[Downloadable from here](https://xdshang.github.io/docs/imagenet-vidvrd.html) 
+
+The dataset contains 1,000 videos selected from ILVSRC2016-VID dataset based on whether the video contains clear visual relations. It is split into 800 training set and 200 test set, and covers common subject/objects of 35 categories and predicates of 132 categories.
