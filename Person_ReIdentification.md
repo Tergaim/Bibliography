@@ -14,6 +14,7 @@ This requires no learning nor labels and can be added to any other Re-ID method.
 
 <details>
 <summary>Bibtex</summary>
+  
 ```
 @INPROCEEDINGS {ZhongReRanking2017,
 author = {Z. Zhong and L. Zheng and D. Cao and S. Li},
@@ -29,6 +30,7 @@ address = {Los Alamitos, CA, USA},
 month = {jul}
 }
 ```
+
 </details>
 
 #### 2021 - Wieczorek et al. - [On the Unreasonable Effectiveness of Centroids in Image Retrieval](https://arxiv.org/abs/2104.13643)
@@ -39,6 +41,7 @@ Work on representing each class by an aggregated embedding. This simplifies time
 
 <details>
 <summary>Bibtex</summary>
+  
 ```
 @inproceedings{WieczorekCentroids2021,
 author = {Wieczorek, Miko\l{}aj and Rychalska, Barbara and D\k{a}browski, Jacek},
@@ -56,6 +59,7 @@ keywords = {Fashion retrieval, Deep learning in fashion, Centroid triplet loss, 
 location = {Sanur, Bali, Indonesia}
 }
 ```
+
 </details>
 
 
@@ -69,6 +73,7 @@ The model can be trained using triplet loss on the source dataset, and identity 
 
 <details>
 <summary>Bibtex</summary>
+  
 ```
 @INPROCEEDINGS{TakeuchiUDAReID2022,
   author={Takeuchi, Shun and Li, Fei and Iwasaki, Sho and Ning, Jiaqi and Suzuki, Genta},
@@ -80,5 +85,6 @@ The model can be trained using triplet loss on the source dataset, and identity 
   pages={1636-1640},
   doi={10.1109/ICIP46576.2022.9897377}}
 ```
+
 </details>
 
