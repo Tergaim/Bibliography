@@ -11,6 +11,7 @@ Authors show that Mean Absolute Error (MAE), while more robust than the Categori
 
 <details>
 <summary>Bibtex</summary>
+  
 ```
 @inproceedings{10.5555/3327546.3327555,
 author = {Zhang, Zhilu and Sabuncu, Mert R.},
@@ -23,6 +24,7 @@ numpages = {11},
 series = {NIPS'18}
 }
 ```
+
 </details>
 
 
@@ -35,6 +37,7 @@ Design two loss functions to handle missing labels to reduce the impact of false
 
 <details>
 <summary>Bibtex</summary>
+  
 ```
 @article{ZhangHill2021,
   author       = {Youcai Zhang and Yuhao Cheng and Xinyu Huang and Fei Wen and Rui Feng and Yaqian Li and Yandong Guo},
@@ -47,6 +50,7 @@ Design two loss functions to handle missing labels to reduce the impact of false
   timestamp    = {Mon, 03 Jan 2022 15:45:35 +0100},
 }
 ```
+
 </details>
 
 ## Links
