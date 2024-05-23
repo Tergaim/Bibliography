@@ -11,6 +11,7 @@ RandAugment has a significantly reduced search space which allows it to be train
 
 <details>
 <summary>Bibtex</summary>
+ 
 ```
 @inproceedings{CubukRandAugment2020,
  author = {Cubuk, Ekin Dogus and Zoph, Barret and Shlens, Jon and Le, Quoc},
@@ -24,6 +25,7 @@ RandAugment has a significantly reduced search space which allows it to be train
  year = {2020}
 }
 ```
+
 </details>
 
 ## Fine-Tuning
@@ -38,6 +40,7 @@ Large pre-trained models such as CLIP or ALIGN offer consistent accuracy across 
 
 <details>
 <summary>Bibtex</summary>
+ 
 ```
 @InProceedings{WortsmanFineTuning2022,
     author    = {Wortsman, Mitchell and Ilharco, Gabriel and Kim, Jong Wook and Li, Mike and Kornblith, Simon and Roelofs, Rebecca and Lopes, Raphael Gontijo and Hajishirzi, Hannaneh and Farhadi, Ali and Namkoong, Hongseok and Schmidt, Ludwig},
@@ -48,6 +51,7 @@ Large pre-trained models such as CLIP or ALIGN offer consistent accuracy across 
     pages     = {7959-7971}
 }
 ```
+
 </details>
 
 
@@ -59,6 +63,7 @@ We show that averaging the weights of multiple models fine-tuned with different 
 
 <details>
 <summary>Bibtex</summary>
+ 
 ```
 @InProceedings{WortsmanSoup2022,
   title = 	 {Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time},
@@ -75,4 +80,5 @@ We show that averaging the weights of multiple models fine-tuned with different 
   url = 	 {https://proceedings.mlr.press/v162/wortsman22a.html}
 }
 ```
+
 </details>
